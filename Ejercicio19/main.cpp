@@ -16,9 +16,10 @@ int main()
 
     unsigned short int N=0, *dato=NULL;
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "             .........::: HOLA SEBASTIAN :::.........."<<endl<<endl;
+    cout << "...::: quieres saber si un numero es primo o no? aca te ayudamos :::..."<<endl<<endl;
     cout<<endl;
-    cout << " ....::: Ingresa el numero deseado menor a 65535: ";
+    cout << "      ....::: Ingresa el numero deseado menor a 65535: ";
     cin>>N;
     dato = &N;
     cout<<endl;

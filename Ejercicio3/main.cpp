@@ -16,6 +16,7 @@ int main()
     cout <<endl;
     cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
     cout<<endl;
+    cout << "...::: Verificacion de numeros, MAYOR que otro "<<endl<<endl;
     cout << " ....::: Ingresa el primer numero: ";
     cin>>A;
     cout << " ....::: Ingresa el segundo numero: ";

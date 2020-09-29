@@ -14,7 +14,8 @@ int main()
 {
     unsigned short int N=0, *dato=NULL;
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "             ......::: HOLA SEBASTIAN :::.........."<<endl<<endl;
+    cout << "...::: Mayor de todos los numeros ingresados son stop 0 :::..."<<endl<<endl;
     cout<<endl;
     cout << " ....::: Ingresa el numero deseado menor a 65535: ";
     cin>>N;

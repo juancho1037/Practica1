@@ -14,14 +14,17 @@ using namespace std;
 int main(){
 
     int A=0,B=0;
-    cout << " Ingrese el primer numero: ";
+    cout << endl;
+    cout << "           ...::: HOLA SEBASTIAN :::... "<<endl;
+    cout << "...::: Residuo de la Division de dos numeros "<<endl<<endl;
+    cout << "       ...:::Ingrese el primer numero: ";
     cin>>A;
     cout<<endl;
-    cout << " Ingrese el segundo numero: ";
+    cout << "...:::     Ingrese el segundo numero: ";
     cin>>B;
     cout<<endl;
 
-    cout<<" El residuo de "<<A<<"/"<<B<<" es: "<<A%B<<endl;
+    cout<<"                 ...:::El residuo de "<<A<<"/"<<B<<" es: "<<A%B<<endl;
 
     getch();
     return 0;

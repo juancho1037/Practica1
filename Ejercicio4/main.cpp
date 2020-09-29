@@ -14,11 +14,12 @@ int main()
 {
     int A, B;
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << " .........::: Hola Sebastian :::.........."<<endl<<endl;
     cout<<endl;
-    cout << " ....::: Ingresa el primer numero: ";
+    cout << "...::: Verificacion de numeros, MENOR que otro "<<endl<<endl;
+    cout << " ......:::: Ingresa el primer numero: ";
     cin>>A;
-    cout << " ....::: Ingresa el segundo numero: ";
+    cout << " ......:::: Ingresa el segundo numero: ";
     cin>>B;
 
     NumMayor(A,B);

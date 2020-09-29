@@ -25,8 +25,9 @@ int main()
     opcion = &OP;
 
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "       ......::: HOLA SEBASTIAN :::.........."<<endl<<endl;
     cout<<endl;
+    cout << "     ....::: CALCULADORA BASICA + - * / :::..."<<endl<<endl;
     cout << " ....::: Ingresa el primer numero: ";cin>>A;cout<<endl;
     cout << " ....::: Ingresa el segundo numero: ";cin>>B;cout<<endl;
     cout << " ....::: Ingresa el signo de la operacion: ";cin>>OP;cout<<endl;

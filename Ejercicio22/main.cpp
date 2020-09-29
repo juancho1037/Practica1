@@ -22,9 +22,10 @@ int main()
     Segundos = &seg;
 
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "            ........::: HOLA SEBASTIAN :::.........."<<endl<<endl;
+    cout << "...::: Ingreso de hora en segundos y se formatea a horas :::..."<<endl<<endl;
     cout<<endl;
-    cout << " ....::: Ingresa el numero deseado menor a 65535: ";
+    cout << "       ....::: Ingresa el numero deseado menor a 65535: ";
     cin>>*Segundos;
     cout<<endl;
 
@@ -53,5 +54,5 @@ void FormatoH(unsigned short int *Segundos){
         if (*Minutos>=60)
             *Minutos = *Minutos-60;
     }
-    cout<<"              ......::::::: "<<*Horas<<":"<<*Minutos<<":"<<*Segundos<<endl;
+    cout<<"                ......::::::: "<<*Horas<<":"<<*Minutos<<":"<<*Segundos<<endl;
 }

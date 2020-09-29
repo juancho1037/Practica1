@@ -16,8 +16,9 @@ int main()
 {
     int A=0, B=0;
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << " ........::: Hola Sebastian :::.........."<<endl<<endl;
     cout<<endl;
+    cout << "...::: Potencia deseada de un numero "<<endl<<endl;
     cout << " ....::: Ingresa el numero base: ";
     cin>>A;
     cout << " ....::: Ingresa la potencia deseada: ";

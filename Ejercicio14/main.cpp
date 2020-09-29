@@ -9,6 +9,8 @@ Ej: las primeras lineas a imprimir serían:
 #define limite 51
 
 #include <iostream>
+#include <iomanip>
+using std::setw;
 
 using namespace std;
 
@@ -17,6 +19,7 @@ void Impresion();
 int main()
 {
     cout<<endl;
+    cout << "...::: IMPRESION DE DOS COLUMNAS :::..."<<endl<<endl;
     Impresion();
     cout<<endl;
     return 0;
@@ -30,12 +33,14 @@ void Impresion(){
 
     while (*inicio<limite) {
         if (*inicio<=9) {
-            cout<<" "<<*inicio<<"    ";
+            cout<<setw(13);
+            cout<<*inicio<<setw(13);
             *inicio += 1;
             cout<<*final<<endl;
             *final -=1;
         }else {
-            cout<<*inicio<<"    ";
+            cout<<setw(13);
+            cout<<*inicio<<setw(13);
             *inicio +=1;
             cout<<*final<<endl;
             *final -=1;

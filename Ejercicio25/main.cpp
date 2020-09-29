@@ -19,9 +19,10 @@ int main()
     numero = &N;
 
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "           ......::: HOLA SEBASTIAN :::.........."<<endl<<endl;
     cout<<endl;
-    cout << " ....::: Ingresa el numero deseado: ";
+    cout << "...::: Cantidad de digitos de un numero deseado :::..."<<endl<<endl;
+    cout << "           ....::: Ingresa el numero deseado: ";
     cin>>*numero;
     cout<<endl;
 
@@ -41,5 +42,5 @@ void Contador(int *numero){
         p_entera = p_entera/10;
         digitos +=1;
     }
-    cout<<"         ......::::: "<<*numero<<" tiene "<<digitos<<" digitos."<<endl;
+    cout<<"            ......::::: "<<*numero<<" tiene "<<digitos<<" digitos."<<endl;
 }

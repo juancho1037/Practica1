@@ -1,4 +1,4 @@
-/*Ejercicio 18. Escriba un programa que pida un número N e imprima si es o no un cuadrado perfecto.
+/*Ejercicio 18. Escriba un programa que pida un número N e imprima si es o no un cuadrado perfecto
 Ej: si se ingresa 9 se debe imprimir:
 9 es un cuadrado perfecto.
 y si se ingresa 8 se debe imprimir:
@@ -16,9 +16,10 @@ int main()
 {
     unsigned short int N=0, *dato=NULL;
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "          ........::: HOLA SEBASTIAN :::.........."<<endl<<endl;
+    cout << "        ...::: Cuadrado perfecto de un numero :::..."<<endl<<endl;
     cout<<endl;
-    cout << " ....::: Ingresa el numero deseado menor a 65535: ";
+    cout << "   ....::: Ingresa el numero deseado menor a 65535: ";
     cin>>N;
     dato = &N;
     cout<<endl;

@@ -21,6 +21,7 @@ int main()
     unsigned short int N=0, *dato=NULL, reflejo=0;
     cout <<endl;
     cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "   ....::: Numero palindromo :::..."<<endl<<endl;
     cout<<endl;
     cout << " ....::: Ingresa el numero deseado menor a 65535: ";
     cin>>N;

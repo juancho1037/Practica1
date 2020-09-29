@@ -8,6 +8,8 @@ Letra convertida: K
 
 #include <iostream>
 #include <stdlib.h>
+#include <iomanip>
+using std::setw;
 
 using namespace std;
 
@@ -17,9 +19,10 @@ int main()
 {
     char *letra=NULL, l=' ';
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "           .........::: HOLA SEBASTIAN :::.........."<<endl<<endl;
+    cout << "...::: Conversion de mayusculas y minusculas automatico :::..."<<endl<<endl;
     cout<<endl;
-    cout << " ....::: Ingresa una letra porfavor: ";
+    cout << "           ....::: Ingresa una letra porfavor: ";
     cin>>l;
     letra = new char;
     letra = &l;
@@ -37,14 +40,14 @@ void Conversion(char *letra){
     if (*letra>96) {
         if (*letra<123) {
             *letra = toupper(*letra);
-            cout<<" ......::::: Letra convertida "<<*letra<<endl;
+            cout<<"            ......::::: Letra convertida "<<*letra<<endl;
         }
     }
     else {
         if (*letra>64) {
             if(*letra<91)
                 *letra = tolower(*letra);
-                cout<<" ......::::: Letra convertida "<<*letra<<endl;
+            cout<<"             ......::::: Letra convertida "<<*letra<<endl;
         }
     }
 }

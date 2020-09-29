@@ -33,7 +33,7 @@ int main()
 
     cout<< "        .........::::::: ESTAS LISTO ??????? ::::::........."<<endl<<endl;
 
-    srand(time(0));
+    srand(time(0)); //la computadora lee el reloj para obtener el valor para la semilla.
     *n =(MIN)+rand()%(MAX-MIN);
 
     cout<<"  ....:::: El numero que pensaste, acaso sera: "<<*n<<"???"<<endl<<endl;

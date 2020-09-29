@@ -22,8 +22,9 @@ int main()
     numero = &N;
 
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "        .........::: HOLA SEBASTIAN :::.........."<<endl<<endl;
     cout<<endl;
+    cout << "...::: Impresion de un cuadrado de tamanio deseado :::..."<<endl<<endl;
     cout << " ....::: Ingresa el numero deseado menor a 65535: ";
     cin>>*numero;
     cout<<endl;

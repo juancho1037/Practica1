@@ -17,8 +17,9 @@ int main()
 {
     float n1=0, n2=0;
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << " ........::: Hola Sebastian :::.........."<<endl<<endl;
     cout<<endl;
+    cout << "...::: Division entera con rendondeo "<<endl<<endl;
     cout << " ....::: Ingresa el primer numero: ";
     cin>>n1;
     cout << " ....::: Ingresa el segundo numero: ";

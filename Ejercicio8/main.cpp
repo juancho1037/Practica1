@@ -15,6 +15,7 @@ int main()
     cout <<endl;
     cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
     cout<<endl;
+    cout << "....::: Factorial de un numero N "<<endl<<endl;
     cout << " ....::: Ingresa el numero base: ";
     cin>>A;
 

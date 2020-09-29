@@ -24,8 +24,9 @@ int main()
     cantidad = &can; formula = &form; aux = &AUX; x=&X; pi=&PI;
 
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "              .........::: HOLA SEBASTIAN :::.........."<<endl<<endl;
     cout<<endl;
+    cout << "                   ...::: Aproximacion de Pi :::..."<<endl<<endl;
     cout << " ....::: Ingresa la cantidad de elementos para la aproximacion: ";cin>>can;cout<<endl;
 
     GenerarAprox(cantidad);
@@ -48,5 +49,5 @@ void GenerarAprox(float *cantidad){
             *x=0;}
     }
    *pi=4*(*aux);
-    cout<<"         ....:::: Pi es aproximadamente: "<<*pi<<endl;
+    cout<<"                 ....:::: Pi es aproximadamente: "<<*pi<<endl;
 }

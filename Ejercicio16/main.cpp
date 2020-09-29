@@ -14,8 +14,9 @@ int main()
 {
     unsigned short int N=0, *dato=NULL;
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "           ......::: HOLA SEBASTIAN :::.........."<<endl<<endl;
     cout<<endl;
+    cout << "...::: Promedio de los numeros ingresados con stop 0 :::..."<<endl<<endl;
     cout << " ....::: Ingresa el numero deseado menor a 65535: ";
     cin>>N;
     dato = &N;

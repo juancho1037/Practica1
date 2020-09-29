@@ -16,8 +16,9 @@ using namespace std;
 int main()
 {
     float R;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << " ........:::: HOLA SEBASTIAN :::.........."<<endl<<endl;
     cout<<endl;
+    cout << "...::: Perimetro y area de un numero deseado "<<endl<<endl;
     cout << " ....::: Ingresa el radio del circulo: ";
     cin>>R;
     cout<<endl;

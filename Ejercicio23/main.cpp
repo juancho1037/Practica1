@@ -22,12 +22,13 @@ int main()
     numero2 = &n2;
 
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "             ......::: HOLA SEBASTIAN :::.........."<<endl<<endl;
     cout<<endl;
-    cout << " ....::: Ingresa el primer numero menor a 65535: ";
+    cout << "      ...::: Minimo comun multiplo de dos numeros :::..."<<endl<<endl;
+    cout << "    ....::: Ingresa el primer numero menor a 65535: ";
     cin>>*numero1;
     cout<<endl;
-    cout << " ....::: Ingresa el segundo numero menor a 65535: ";
+    cout << "    ....::: Ingresa el segundo numero menor a 65535: ";
     cin>>*numero2;
     cout<<endl;
 
@@ -65,6 +66,6 @@ void MinimoComunMultiplo(unsigned short int *numero1, unsigned short int *numero
 
     y=y*z*x;
 
-    cout<<"        ......::::: El MCM de "<<*numero1<<" y "<<*numero2<<" es: "<<y<<endl;
+    cout<<"            ......::::: El MCM de "<<*numero1<<" y "<<*numero2<<" es: "<<y<<endl;
 
 }

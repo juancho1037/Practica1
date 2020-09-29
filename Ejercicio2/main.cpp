@@ -14,6 +14,7 @@ int main()
     int N=0;
     cout <<endl;
     cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "...::: Verificacion de numeros, PAR O IMPAR "<<endl<<endl;
     cout << " Ingresa el numero que deseas verificar: ";
     cin>>N;
 

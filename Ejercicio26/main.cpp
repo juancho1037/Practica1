@@ -27,11 +27,12 @@ int main()
     ladoC = &C;
 
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "          .........::: HOLA SEBASTIAN :::.........."<<endl<<endl;
     cout<<endl;
-    cout << " ....::: Ingresa el primer lado: ";cin>>*ladoA;cout<<endl;
-    cout << " ....::: Ingresa el segundo lado: ";cin>>*ladoB;cout<<endl;
-    cout << " ....::: Ingresa el tercer lado: ";cin>>*ladoC;cout<<endl;
+    cout << "...::: Tipo de triangulo (isósceles,equilátero, escaleno) :::..."<<endl<<endl;
+    cout << "               ....::: Ingresa el primer lado: ";cin>>*ladoA;cout<<endl;
+    cout << "               ....::: Ingresa el segundo lado: ";cin>>*ladoB;cout<<endl;
+    cout << "               ....::: Ingresa el tercer lado: ";cin>>*ladoC;cout<<endl;
 
     VerificarMedidas(ladoA,ladoB,ladoC);
     cout<<endl;
@@ -47,18 +48,18 @@ void VerificarMedidas(int *ladoA, int *LadoB, int *ladoC){
 
     if((*ladoA+*LadoB)<=*ladoC){
         cout<<endl;
-        cout<<"...::: Las longitudes ingresadas no forman un triangulo."<<endl;
+        cout<<" ...::: Las longitudes ingresadas no forman un triangulo."<<endl;
     }
     else if (*ladoA == *LadoB && *LadoB == *ladoC){
         cout<<endl;
-        cout<<"...::: Se forma un triangulo equilatero."<<endl;
+        cout<<"         ...::: Se forma un triangulo equilatero."<<endl;
     }
     else if (*ladoA == *LadoB || *LadoB == *ladoC || *ladoC == *ladoA) {
         cout<<endl;
-        cout<<"...::: Se forma un triangulo isoceles."<<endl;
+        cout<<"         ...::: Se forma un triangulo isoceles."<<endl;
     }
     else{
         cout<<endl;
-        cout<<"...::: Se forma un triangulo escaleno."<<endl;
+        cout<<"         ...::: Se forma un triangulo escaleno."<<endl;
     }
 }

@@ -17,7 +17,8 @@ int main()
 {
     int A=0;
     cout <<endl;
-    cout << " ......::: Hola Sebastian :::.........."<<endl<<endl;
+    cout << "        .........::: Hola Sebastian :::.........."<<endl<<endl;\
+    cout << "...::: Sumatoria de numeros hasta el numero deseado "<<endl<<endl;
     cout<<endl;
     cout << " ....::: Ingresa el numero base: ";
     cin>>A;
